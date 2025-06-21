@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Smart Login System</h2>
+    <form onsubmit="login(event)">
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <input type="password" id="password" placeholder="Enter your password" required>
+      <button type="submit">Login</button>
+      <p id="message" class="message"></p>
+    </form>
+    <p class="switch">Don’t have an account? <a href="register.html">Sign Up</a></p>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
